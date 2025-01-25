@@ -12,11 +12,8 @@ LINKSYS_PASSWORD=
 ## Usage
 
 ```sh
-uv run python linksys_mon.py --help
-```
-
-```sh
-usage: imo.py [-h] [--online] [--offline] [--friendly FRIENDLY] [--mac MAC]
+> uv run --script linksys_mon.py --help
+usage: linksys_mon.py [-h] [--online] [--offline] [--friendly FRIENDLY] [--mac MAC]
 
 Display device connection status from Linksys router
 
